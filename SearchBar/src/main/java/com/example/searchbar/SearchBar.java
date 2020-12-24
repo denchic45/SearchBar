@@ -30,7 +30,7 @@ import static com.example.searchbar.Utils.DimensionUtils.dpToPx;
 public class SearchBar extends LinearLayout {
 
     private OnQueryTextListener onQueryTextListener;
-    private TextView textView;
+//    private TextView textView;
     private EditText editText;
     private CardView cardView;
     private boolean expanded;
@@ -71,7 +71,7 @@ public class SearchBar extends LinearLayout {
         toolbar = findViewById(R.id.MaterialToolbar);
         swInputText = findViewById(R.id.viewSwitcher_search_input);
         cardView = findViewById(R.id.cardView_search);
-        textView = findViewById(R.id.textView_search);
+//        textView = findViewById(R.id.textView_search);
         editText = findViewById(R.id.editText_search);
 
         editText.setOnEditorActionListener((v, actionId, event) -> {
