@@ -1,0 +1,3 @@
+include ':SearchBar'
+include ':app'
+rootProject.name = "SearchBarDemo"
