@@ -97,12 +97,12 @@ public class SearchBar extends LinearLayout {
                 editText.requestFocusFromTouch();
                 lManager.showSoftInput(editText, 0);
             } else {
-//                lManager.hideSoftInputFromWindow(editText.getWindowToken(), 0);
+                lManager.hideSoftInputFromWindow(editText.getWindowToken(), 0);
             }
         });
 
 
-        toolbar.setNavigationIcon(R.drawable.ic_menu);
+//        toolbar.setNavigationIcon(R.drawable.ic_menu);
     }
 
     private void setExpanded(boolean expanded) {
