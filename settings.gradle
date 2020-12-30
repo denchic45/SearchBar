@@ -1,3 +1,3 @@
-include ':SearchBar'
-include ':app'
-rootProject.name = "SearchBarDemo"
+include ':sample'
+include ':library'
+rootProject.name = "SearchBar"
