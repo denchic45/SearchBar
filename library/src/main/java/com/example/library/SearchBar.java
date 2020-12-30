@@ -153,7 +153,8 @@ public class SearchBar extends LinearLayout {
         textView.setLetterSpacing(letterSpacing);
         editText.setLetterSpacing(letterSpacing);
 
-        toolbar.inflateMenu(menuId);
+        if (menuId != 0)
+            toolbar.inflateMenu(menuId);
 
         if (fontResId != 0) {
             Typeface font = ResourcesCompat.getFont(getContext(), fontResId);
