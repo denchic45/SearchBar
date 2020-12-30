@@ -124,7 +124,6 @@ public class SearchBar extends LinearLayout {
             ViewParent parent = getParent();
             View rootView = ((View) parent).getRootView();
             ViewGroup contentView = ((ViewGroup) rootView).findViewById(contentLayoutId);
-            Log.d("TAG", "initAttributes: " + contentView.getClass().getName());
 
             int top = dpToPx(8, getContext());
 
