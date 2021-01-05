@@ -34,12 +34,11 @@
             android:background="@android:color/transparent"
             app:elevation="0dp">
 
-            <com.example.library.SearchBar
+            <com.github.searchbar.SearchBar
                 android:id="@+id/search_bar"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:fontFamily="@font/gilroy_medium"
-                app:expandable="alwaysExpand"
                 app:layout_scrollFlags="scroll|enterAlways|snap"
                 app:menu="@menu/main"
                 app:searchBar_content_layer="@id/nav_host_fragment" />

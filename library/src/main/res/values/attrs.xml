@@ -15,7 +15,8 @@
             <enum name="enable" value="3"/>
         </attr>
         <attr name="menu" format="reference"/>
-        <attr name="android:fontFamily" format="string"/>
+        <attr name="android:fontFamily"/>
+        <attr name="android:hint"/>
         <attr name="android:letterSpacing" />
         <attr name="android:layout_margin" />
         <attr name="searchBar_content_layer" format="reference"/>

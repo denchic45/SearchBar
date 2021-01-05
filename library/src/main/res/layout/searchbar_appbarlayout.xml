@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.library.SearchBar
+    <com.github.searchbar.SearchBar
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize" />
 </com.google.android.material.appbar.AppBarLayout>

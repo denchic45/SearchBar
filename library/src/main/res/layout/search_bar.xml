@@ -37,7 +37,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical"
-                    android:hint="Поиск"
+                    android:hint="@string/hint_search_def"
                     android:focusableInTouchMode="false"
                     android:textSize="18sp" />
 
@@ -48,7 +48,7 @@
                     android:autofillHints=""
                     android:background="@null"
                     android:gravity="center_vertical"
-                    android:hint="Поиск"
+                    android:hint="@string/hint_search_def"
                     android:imeOptions="actionSearch"
                     android:inputType="textCapSentences" />
             </ViewSwitcher>
