@@ -50,10 +50,11 @@ public class SearchBar extends LinearLayout {
     public static final int LEFT_ACTION_MODE_MENU = 1;
     public static final int LEFT_ACTION_MODE_SEARCH = 2;
 
-    public static final int EXPANDABLE_NO_ANIMATION = 0;
+    public static final int EXPANDABLE_ENABLE = 0;
     public static final int EXPANDABLE_ALWAYS_COLLAPSE = 1;
     public static final int EXPANDABLE_ALWAYS_EXPAND = 2;
-    public static final int EXPANDABLE_ENABLE = 3;
+    public static final int EXPANDABLE_NO_ANIMATION = 3;
+
     public static final int DELAY_EXPAND_ANIMATION = 300;
 
     private OnQueryTextListener onQueryTextListener;
