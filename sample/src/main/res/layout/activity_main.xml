@@ -34,7 +34,7 @@
             android:background="@android:color/transparent"
             app:elevation="0dp">
 
-            <com.github.searchbar.SearchBar
+            <com.denchic45.searchbar.SearchBar
                 android:id="@+id/search_bar"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"

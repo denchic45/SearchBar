@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.sample">
+    package="com.denchic45.sample">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SearchBar">
         <activity
-            android:name="com.github.sample.MainActivity"
+            android:name="com.denchic45.sample.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.SearchBar">
             <intent-filter>
