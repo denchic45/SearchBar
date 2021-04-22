@@ -233,6 +233,10 @@ public class SearchBar extends LinearLayout {
         }
     }
 
+    public void someFeature() {
+        // Implement some feature...
+    }
+
     private void setLeftIconBack() {
 
         if (drawerLayout != null) {
